@@ -103,8 +103,9 @@ do {
   
   else{
     alert(`У вас осталось ${attempt} попыток`)
+    attempt--;
   }
-  attempt--;
+  
 
 } while (attempt = 0);
 
