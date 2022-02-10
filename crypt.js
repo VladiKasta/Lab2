@@ -90,17 +90,23 @@ console.log(encrypt(str,change,smallAlphabet)) */
 const password = "123"
 let attempt = 3
 
-while (attempt != 0){
+
+
+do {
   let enteredPassword = prompt("Enter your password: ")
+  
   if (enteredPassword === password) {
     alert("Успешно!")
+    attempt = 0;
   }
+  
   
   else{
     alert(`У вас осталось ${attempt} попыток`)
   }
   attempt--;
-}
+
+} while (attempt = 0);
 
 
 
