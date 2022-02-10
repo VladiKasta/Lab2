@@ -106,7 +106,7 @@ do {
   }
   attempt--;
 
-} while (attempt = 0);
+} while (attempt != 0);
 
 
 
